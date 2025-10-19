@@ -36,7 +36,7 @@ p {
   margin-top: 20px;
 }
 #amount {
-  padding: 8px 15%;
+  padding: 8px 35px;
   background-color: transparent;
   border: 2px solid rgba(255, 255, 255, 0.671);
   outline: none;
@@ -61,3 +61,4 @@ pre {
   margin-top: 20px;
   font-size: large;
 }
+
