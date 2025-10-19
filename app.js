@@ -14,7 +14,7 @@ function withdraw() {
   }
 
   if (amount % 10 !== 0) {
-    output.innerHTML = "Cannot dispense exact amount<br>with available notes.";
+    output.innerText = "Cannot dispense exact amount\nwith available notes.";
     return;
   }
 
@@ -35,5 +35,6 @@ function withdraw() {
 
   output.innerText = result;
 }
+
 
 
